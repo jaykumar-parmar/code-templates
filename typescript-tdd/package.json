@@ -1,0 +1,20 @@
+{
+  "name": "typescripttdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start",
+    "dev-server": "tsc-watch -p ./tsconfig.json" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jasmine": "^4.3.1",
+    "karma-jasmine-html-reporter": "^2.0.0",
+    "karma-requirejs": "^1.1.0",
+    "tsc-watch": "^6.0.0",
+    "typescript": "^5.0.4"
+  }
+}

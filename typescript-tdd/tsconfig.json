@@ -1,0 +1,21 @@
+{
+  "include": [
+    "src/**/*",
+    "specs/**/*"
+  ],
+  "exclude": [],
+  "compilerOptions": {
+    "rootDir": "./",
+    "baseUrl": ".",
+    "target": "ES5",
+    "module": "AMD",
+    "downlevelIteration": true,
+    "sourceMap": true,
+    "declaration": true,
+    "moduleResolution": "node",
+    "lib": [
+      "ES2015"
+    ],
+    "outDir": "dist"
+  }
+}
